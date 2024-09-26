@@ -1,5 +1,5 @@
 
-import Image from "next/image";
+
 import Navbar from "@/Components/Common/Navbar";
 import Hero from "@/Components/Landing/Hero";
 import CarouselContent from "@/Components/Landing/CarouselSection";

@@ -25,7 +25,7 @@ export default function About() {
         >
           <h1 className="text-2xl md:text-3xl font-semibold">About Lumify</h1>
           <p className="text-lg mt-5">
-            Explore some of the cutting-edge projects we've completed for
+            Explore some of the cutting-edge projects we&apos;ve completed for
             clients across various industries. Our portfolio highlights our
             ability to deliver tailored IT solutions that solve real-world
             challenges and drive business success.
