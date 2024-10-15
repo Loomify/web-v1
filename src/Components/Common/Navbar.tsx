@@ -5,10 +5,10 @@ import Logo from "../../../public/Logo.png";
 import Link from "next/link";
 
 const navElements = [
-  { text: "What we Do", url: "#whatwedo" },
+  { text: "What we Do", url: "/what-we-do" },
   { text: "For founders", url: "#" },
-  { text: "Clients", url: "#" },
-  { text: "Get in Touch", url: "#getintouch" },
+  { text: "Clients", url: "/clients" },
+  { text: "Get in Touch", url: "/get-in-touch" },
 ];
 
 export default function Navbar() {
@@ -23,7 +23,7 @@ export default function Navbar() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-20 items-center">
           <div className="flex-shrink-0">
-            <Image src={Logo}  className="w-full h-auto md:w-[180px]" alt="Logo Image" />
+            <Link href={"/"}><Image src={Logo}  className="w-full h-auto md:w-[180px]" alt="Logo Image" /></Link>
           </div>
 
           <div className="block md:hidden">

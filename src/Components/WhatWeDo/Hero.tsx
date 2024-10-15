@@ -1,6 +1,5 @@
 import Image from "next/image";
-import heroImage from "../../../public/heroImage.png";
-import Link from "next/link";
+import heroImage from "../../../public/WWDHero.png";
 
 export default function Hero() {
   return (
@@ -10,25 +9,23 @@ export default function Hero() {
     >
       <div id="contentDiv" className="pt-5 md:pt-40 md:col-span-3">
         <h1 className="text-3xl md:text-4xl w-full md:w-[80%] font-semibold">
-          Empowering Businesses with Cutting-Edge IT Solutions
+          Discover what we do
         </h1>
         <p className="text-lg md:text-xl py-4">
-          Transform your digital experience with our industry-leading managed IT
-          services, cybersecurity, and cloud solutions.
+        At Lumify, we specialize in delivering tailored IT solutions that drive efficiency, security, and growth. Our comprehensive suite of services ensures your technology aligns seamlessly with your business goals.
         </p>
-        <Link
-        href={"/get-in-touch"}
+        <button
           id="Get In Touch"
           className="p-3 px-8 md:px-16 rounded-full text-lg md:text-xl text-white bg-[#00DBBD]"
         >
           Get in Touch
-        </Link>
+        </button>
       </div>
       <div className="mb-8 md:mb-0 md:col-span-3">
         <Image
           src={heroImage}
           alt="Hero Image"
-          className="w-full h-auto object-cover"
+          className="w-full p-16 h-auto object-cover"
         />
       </div>
     </section>

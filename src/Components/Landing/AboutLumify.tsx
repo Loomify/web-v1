@@ -36,16 +36,21 @@ export default function About() {
           id="content2"
           className="flex flex-col mt-10 items-center justify-center text-wrap text-center"
         >
-          <h1 className="text-2xl md:text-3xl font-semibold">Let Us Help You Innovate</h1>
+          <h1 className="text-2xl md:text-3xl font-semibold">
+            Let Us Help You Innovate
+          </h1>
           <p className="text-lg mt-6">
             Ready to take your business to the next level? Contact us today to
             learn how our tailored IT solutions can empower your organization.
           </p>
         </div>
 
-        <button className="bg-[#775Df2] text-white px-20 py-4 rounded-full mt-12 w-fit">
+        <a
+          href="mailto:onlyforcocindia@gmail.com"
+          className="bg-[#775Df2] text-white px-20 py-4 rounded-full mt-12 w-fit"
+        >
           Get Consultation
-        </button>
+        </a>
       </div>
     </section>
   );

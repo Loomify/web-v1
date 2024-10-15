@@ -7,25 +7,25 @@ import Link from "next/link";
 
 const navElements = [
   { text: "Home", url: "/" },
-  { text: "What we Do", url: "#whatwedo" },
+  { text: "What we Do", url: "/what-we-do" },
   { text: "For founders", url: "#" },
-  { text: "Clients", url: "#" },
-  { text: "Get in Touch", url: "#getintouch" },
+  { text: "Clients", url: "/clients" },
+  { text: "Get in Touch", url: "/get-in-touch" },
 ];
 
 export default function Footer() {
   return (
-    <footer id="footer" className="flex flex-col h-[100vh] md:h-[54vw] items-center px-4 md:px-10 pb-5 justify-between">
+    <section id="footer" className="flex flex-col h-fit md:h-fit items-center px-4 md:px-10 pb-5 justify-between">
       {/* Top Section */}
-      <div className="flex flex-col text-[#3d3933] justify-center items-center pt-20 md:pt-44">
+      {/* <div className="flex flex-col text-[#3d3933] justify-center items-center pt-20 md:pt-44">
         <h1 className="text-2xl md:text-3xl font-semibold">Got a Project?</h1>
         <p className="text-lg md:text-xl flex">
           <CiMail className="mt-1" /> &nbsp; info@lumify.co.in
         </p>
-      </div>
+      </div> */}
 
       {/* Middle Section with Logo and Socials */}
-      <div className="flex flex-col md:flex-row w-full justify-between items-center mt-10 md:pt-40 text-center md:text-left">
+      <div className="flex flex-col md:flex-row w-full justify-between items-center mt-20 md:pt-0 md:mt-10 text-center md:text-left">
         {/* Logo and Social Icons */}
         <div className="flex flex-col items-center md:items-start">
           <Image
@@ -57,6 +57,6 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-    </footer>
+    </section>
   );
 }

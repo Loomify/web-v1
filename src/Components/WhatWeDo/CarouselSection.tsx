@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 const cardContent = [
   {
     image: "/itserv.png",
@@ -32,9 +31,9 @@ export default function CarouselContent() {
   return (
     <section
       id="whatwedo"
-      className="bg-white pt-28 h-fit flex flex-col items-center"
+      className="bg-white mb-36 pt-28 h-fit flex flex-col items-center"
     >
-      <div className="flex flex-col items-center justify-center w-[60%]">
+      {/* <div className="flex flex-col items-center justify-center w-[60%]">
         <h1 className="text-black text-4xl font-medium">What we do?</h1>
         <p className="text-wrap text-xl pt-2 text-black text-center">
           At Lumify, we specialize in delivering tailored IT solutions that
@@ -42,7 +41,7 @@ export default function CarouselContent() {
           services ensures your technology aligns seamlessly with your business
           goals.
         </p>
-      </div>
+      </div> */}
 
       {/* CardContainer */}
       <div
@@ -52,7 +51,7 @@ export default function CarouselContent() {
         {cardContent.map((con) => (
           <div
             key={con.title}
-            className="flex flex-col items-center justify-center h-fit w-full sm:w-[40%] md:w-[18%] m-2"
+            className="flex flex-col items-center justify-center h-fit w-full sm:w-[40%] md:w-[22%] m-2"
           >
             <div
               id="imageDiv"
@@ -75,12 +74,9 @@ export default function CarouselContent() {
         ))}
       </div>
 
-      <Link
-        href={"/what-we-do"}
-        className="bg-[#775Df2] px-20 py-4 rounded-full"
-      >
+      {/* <button className="bg-[#775Df2] px-20 py-4 rounded-full">
         Know More
-      </Link>
+      </button> */}
     </section>
   );
 }

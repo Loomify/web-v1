@@ -3,7 +3,7 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 :root {
-  --background: #ffffff;
+  --background: #f9faff;
   --foreground: #171717;
 }
 
@@ -17,7 +17,7 @@
 body {
   color: var(--foreground);
   font-family: 'Plus Jakarta Sans',sans-serif;
-  background: white;
+  background: #f9faff;
   overflow: scroll;
   font-family: Arial, Helvetica, sans-serif;
   height: max-content;
