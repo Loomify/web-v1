@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="flex flex-col-reverse md:grid mt-5 md:mt-20 grid-cols-1 md:grid-cols-6 h-max px-6 md:px-20 bg-white text-black"
+      className="flex flex-col-reverse md:grid pt-5 md:pt-20 grid-cols-1 md:grid-cols-6 h-max px-6 md:px-20 bg-white text-black"
     >
       <div id="contentDiv" className="pt-5 md:pt-40 md:col-span-3">
         <h1 className="text-3xl md:text-4xl w-full md:w-[80%] font-semibold">
