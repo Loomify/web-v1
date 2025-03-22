@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { CiMail } from "react-icons/ci";
+// import { CiMail } from "react-icons/ci";
 import { FaTwitter, FaLinkedin } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import Link from "next/link";

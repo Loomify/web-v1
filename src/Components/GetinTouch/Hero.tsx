@@ -42,7 +42,7 @@ export default function Hero() {
               className="bg-white border-2 p-1 pl-4 rounded-lg w-[70%]"
               placeholder="Enter your email"
             />
-            We'll respond here
+            We&apos;ll respond here
           </div>
           <button
             type="submit"
